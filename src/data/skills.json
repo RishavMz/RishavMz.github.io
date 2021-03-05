@@ -17,40 +17,47 @@
         },
         {
             "id":3,
-            "name":"PHP",
-            "image":"php.png"
-        },
-        {
-            "id":4,
             "name":"C",
             "image":"c.png"
         }
     ],
-    "frameworks":[
+    "frontend":[
         {
-        "id":0,
-        "name":"React Js",
-        "image":"react.png"
+            "id":0,
+            "name":"ReactJs",
+            "image":"react.png"
         },
         {
             "id":1,
-            "name":"Express Js",
-            "image":"express.png"
-        },
-        {
-            "id":2,
-            "name":"tkinter",
-            "image":"tk.jpg"
-        },
-        {
-            "id":3,
             "name":"jQuery",
             "image":"jquery.jpg"
         },
         {
             "id":2,
-            "name":"Node JS",
-            "image":"nodejs.png"
+            "name":"Bootstrap",
+            "image":"bootstrap.jpg"
+        },
+        {
+            "id":4,
+            "name":"HTML",
+            "image":"html.png"
+        },
+        {
+            "id":5,
+            "name":"CSS",
+            "image":"css.png"
+        }
+    ],
+    "backend":[
+        {
+        "id":0,
+        "name":"Express Js",
+        "image":"express.png"
+        },
+        {
+            "id":1,
+            "name":"PHP",
+            "image":"php.png"
         }
     ],
     "database":[
@@ -68,32 +75,16 @@
     "tools":[
         {
             "id":0,
-            "name":"HTML",
-            "image":"html.png"
-        },
-        {
-            "id":1,
-            "name":"CSS",
-            "image":"css.png"
-        },
-        
-        {
-            "id":2,
-            "name":"Bootstrap",
-            "image":"bootstrap.jpg"
-        },
-        {
-            "id":3,
             "name":"git",
             "image":"git.png"
         },
         {
-            "id":4,
+            "id":1,
             "name":"github",
             "image":"github.png"
         },
         {
-            "id":5,
+            "id":2,
             "name":"VS Code",
             "image":"vscode.png"
         }

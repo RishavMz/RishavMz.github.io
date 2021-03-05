@@ -4,6 +4,7 @@ import './navbar.css';
 export default function Navbar(){
     return(<div className="navbar">
         <ul>
+        Links would not work now<br/><br/>
             <br/><li>About Me</li>
             <br/><li>Top skills</li>
             <br/><li>Projects</li>

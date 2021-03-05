@@ -2,7 +2,7 @@ import React from 'react';
 import './rpanel.css';
 import Head from '../head/head';
 import About from '../about/about';
-import WhatIDo from '../whtido/whtido';
+import WhatIDo from '../whtido/topskill';
 import Achievements from '../achievements/achievements';
 import Projects from '../projects/project';
 import Skills from '../skills/skills';

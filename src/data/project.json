@@ -1,0 +1,54 @@
+[   
+    [ 
+        {
+            "ID"    :    1,
+            "Topic" :    "Image To PDF Converter",
+            "About" :    "GUI based desktop application to select few images and add them to a single PDF file ",
+            "Image" :    "proj1.JPG",
+            "Link"  :    "https://github.com/RishavMz/Image-To-PDF-using-Python",
+            "Btext" :    "Python automation"   
+        },
+        {
+            "ID"    :    2,
+            "Topic" :    "Discord Bot (CP assistant)",
+            "Image" :    "proj2.JPG",
+            "About" :    "Discord bot to notify about upcoming contests and display custom ranklist based on friends performance ",
+            "Link"  :    "https://github.com/RishavMz/Competitive_Programming_Bot",
+            "Btext" :    "Python automation"   
+        },
+        {
+            "ID"    :    3,
+            "Topic" :    "IEEE SB website",
+            "Image" :    "noimage.JPG",
+            "About" :    "Worked in a team of 6 members to design website for IEEE Student Branch using MERN stack.",
+            "Link"  :    "",
+            "Btext" :    "Worked in a team of 6.    Used MERN stack." 
+        }
+    ],
+    [
+        {
+            "ID"    :    4,
+            "Topic" :    "Hoodie Shopping Website",
+            "Image" :    "proj6.JPG",
+            "About" :    "Web based application which allows customers to select a product of their choice",
+            "Link"  :    "https://github.com/RishavMz/Winter_hoodie_shopping_portal",
+            "Btext" :    "Used PHP + MySQL"   
+        },
+        {
+            "ID"    :    6,
+            "Topic" :    "Portfolio Website",
+            "Image" :    "noimage.JPG",
+            "About" :    "Designed a portfolio website using React framework ",
+            "Link"  :    "https://rishavmz.github.io/",
+            "Btext" :    "React application"   
+        },
+        {
+            "ID"    :    5,
+            "Topic" :    "Event Organising website",
+            "Image" :    "noimage.JPG",
+            "About" :    "Worked in a team of 2 members to design an event organising/broadcasting website as an entry to an inter-IIIT Hackathon. ",
+            "Link"  :    "",
+            "Btext" :    "Worked in a team of 2.    Used PHP + MySQL"   
+        }
+    ]
+]

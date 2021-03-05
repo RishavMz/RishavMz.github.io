@@ -1,0 +1,23 @@
+.head{
+    margin-top: 50px;
+    height: 400px;
+}
+.dp{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.abt{
+    text-align: left;
+    margin-right: 12%;
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 120px;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

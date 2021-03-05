@@ -1,0 +1,19 @@
+@media only screen and (max-device-width : 1200px) {
+    .Lpanel{
+        visibility: hidden;
+    }
+}
+    
+    @media only screen and (min-device-width: 1200px) {
+        .Lpanel{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            color: #121212;
+            background-image:  linear-gradient(#eee .05em, transparent .05em);
+            background-color: #fff;
+            background-size: 100% 1.2em;
+        }
+}

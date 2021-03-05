@@ -1,0 +1,39 @@
+
+
+@media only screen and (max-device-width : 1200px) {
+    
+.nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 75%;
+    border-radius: 50px;
+}
+
+.skimg{
+    height: 50px;
+    width: auto;
+    margin: 25px 25px 25px 25px;
+}
+}
+    
+    @media only screen and (min-device-width: 1200px) {
+        
+    .nd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: white;
+        width: 75%;
+        border-radius: 50px;
+    }
+
+    .skimg{
+        height: 50px;
+        width: auto;
+        margin: 25px 25px 25px 25px;
+    }
+}

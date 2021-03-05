@@ -1,0 +1,73 @@
+.Project{
+    padding: 30px 30px 30px 50px;
+    color: black;
+}
+.projimg{
+    height: 180px;
+    width: auto;
+    z-index: 0;
+}
+
+.imcont{
+    height: 180px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.projanimin{
+    animation: projanimate1 0.5s ;
+    height: 220px;
+}
+.projanimout{
+    animation: projanimate2 0.5s ;
+    height: 180px;
+}
+@keyframes projanimate1{
+    from{
+        height: 180px;
+    }
+    to{
+        height: 220px;
+    }
+}
+@keyframes projanimate2{
+    from{
+        height: 220px;
+    }
+    to{
+        height: 180px;
+    }
+}
+.topichead{
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+    font-family: "roboto";
+}
+.topicheadsmall{
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    font-family: "roboto";
+}
+@media only screen and (min-device-width: 1200px) {
+    .cardproj{
+        margin: 30px 30px 30px 30px;
+        height: 400px;
+    }
+    .prjbtn{
+        position: absolute;
+        bottom: 10px;    
+        left: 30%;
+    }
+}
+.btnss{
+    background-color: rgb(160, 240, 240);
+    color: black;
+}
+hr{
+    background-color: azure;
+    color: azure;
+    width: 75%;
+}

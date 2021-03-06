@@ -19,10 +19,10 @@
         {
             "ID"    :    3,
             "Topic" :    "IEEE SB website",
-            "Image" :    "noimage.JPG",
+            "Image" :    "ieee.png",
             "About" :    "Worked in a team of 6 members to design website for IEEE Student Branch using MERN stack.",
-            "Link"  :    "",
-            "Btext" :    "Worked in a team of 6.    Used MERN stack." 
+            "Link"  :    "https://github.com/EmperorYP7/IIITR-IEEE-Website",
+            "Btext" :    "Team of 6  |  MERN stack" 
         }
     ],
     [
@@ -32,23 +32,23 @@
             "Image" :    "proj6.JPG",
             "About" :    "Web based application which allows customers to select a product of their choice",
             "Link"  :    "https://github.com/RishavMz/Winter_hoodie_shopping_portal",
-            "Btext" :    "Used PHP + MySQL"   
+            "Btext" :    "Web App  |  PHP + MySQL"   
         },
         {
             "ID"    :    6,
             "Topic" :    "Portfolio Website",
-            "Image" :    "noimage.JPG",
+            "Image" :    "portfolio.png",
             "About" :    "Designed a portfolio website using React framework ",
             "Link"  :    "https://rishavmz.github.io/",
-            "Btext" :    "React application"   
+            "Btext" :    "Web App  |  React"   
         },
         {
             "ID"    :    5,
             "Topic" :    "Event Organising website",
-            "Image" :    "noimage.JPG",
+            "Image" :    "eventorg.png",
             "About" :    "Worked in a team of 2 members to design an event organising/broadcasting website as an entry to an inter-IIIT Hackathon. ",
-            "Link"  :    "",
-            "Btext" :    "Worked in a team of 2.    Used PHP + MySQL"   
+            "Link"  :    "eventorg.png",
+            "Btext" :    "Team of 2  |  Web App  |  PHP + MySQL"   
         }
     ]
 ]

@@ -2,6 +2,11 @@
     padding: 30px 30px 30px 50px;
     color: black;
 }
+.card{
+    box-shadow : 0px 0px 20px grey;
+    border: transparent;
+    border-radius: 10px;
+}
 .projimg{
     height: 180px;
     width: auto;
@@ -42,13 +47,14 @@
 .topichead{
     font-size: 20pt;
     font-weight: bold;
-    color: white;
+    color: black;
     font-family: "roboto";
+    text-shadow: 1px 1px 1px grey;
 }
 .topicheadsmall{
-    font-size: 12pt;
+    font-size: 15pt;
     font-weight: bold;
-    color: white;
+    color: black;
     font-family: "roboto";
 }
 @media only screen and (min-device-width: 1200px) {
@@ -65,6 +71,12 @@
 .btnss{
     background-color: rgb(160, 240, 240);
     color: black;
+}
+.btnss1{
+    background-color: #121212;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
 }
 hr{
     background-color: azure;

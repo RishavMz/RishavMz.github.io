@@ -3,12 +3,16 @@
     margin: 50px 100px 25px 100px;
     font-size: 14pt;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 }
 @media only screen and (max-device-width: 1200px) {
     .About{
-    margin: 20px 20px 20px 20px;
+    margin: 40px 20px 20px 20px;
     font-size: 14pt;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 }

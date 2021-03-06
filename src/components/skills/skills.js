@@ -3,7 +3,7 @@ import './skills.css';
 import skills from "../../data/skills.json";
 
 export default function Skills(){
-    return(<div className="Skils"><hr/><br/>
+    return(<div className="Skils" id="techstack"><hr/><br/>
         <center className="topichead">Technology I have worked with</center><br/><br/>
         <div className="mesh">
         <center className="topicheadsmall">Programming languages<br/><div class="nd">

@@ -4,7 +4,7 @@ import './project.css';
 import projects from "../../data/project.json";
 
 export default function Project(){
-    return(<div className="Project"><hr/><br/>
+    return(<div className="Project" id="project"><hr/><br/>
         <center className="topichead"> Projects</center><br/><br/>
         {projects.map((project)=>(<div className="card-deck" key={project[0].ID}>
             {project.map((proj)=>{

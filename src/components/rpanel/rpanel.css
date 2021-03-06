@@ -5,8 +5,8 @@
         right: 0px;
         height: 100%;
         width: 100%;
-        background-color: #121212;
-        color: azure;
+        background-color: white;
+        color: black;
         overflow-y: scroll;
         overflow-x: hidden;
     }
@@ -19,9 +19,10 @@
             right: 0px;
             height: 100%;
             width: 80%;
-            background-color: #121212;
-            color: azure;
+            background-color: white;
+            color: black;
             overflow-y: scroll;
             overflow-x: hidden;
+            
         }
 }

@@ -15,7 +15,7 @@ export default function About(){
     useEffect(() => {
         const timer = window.setInterval(() => {
           updateIdx((prevIdx) => (prevIdx +1) % intro.length);
-        }, 5000);
+        }, 3000);
         return () => {
           window.clearInterval(timer);
         }

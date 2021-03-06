@@ -7,30 +7,20 @@ export default function WhatIDo(){
         <hr/><br/><center className="topichead">Top skills</center>
         <div className="row wido">
             <div className="col1 m-5">
-                <div class="flip-box">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
+            <div className="col2 m-5">
+                    <div className="inf">
                         <img className="card-img-top sktopimg" src={require(`../../data/images/toolbox/WebDevelopment.png`).default} alt="Web Development"/>
-                        </div>
-                        <div class="flip-box-back">
-                        </div>
                     </div>
                     <br/><br/>
-                    Web Developer
+                    <b>Web Developer</b>
                 </div> 
             </div>
             <div className="col2 m-5">
-                <div class="flip-box">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
+                    <div className="inf">
                         <img className="card-img-top sktopimg" src={require(`../../data/images/toolbox/python.png`).default} alt="Python programmer"/>
-                        </div>
-                        <div class="flip-box-back">
-                        </div>
                     </div>
                     <br/><br/>
-                    Python Programmer
-                </div> 
+                    <b>Python Programmer</b>
             </div>
         </div>
     </div>);

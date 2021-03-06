@@ -7,3 +7,10 @@
 ul{
     list-style-type:none;
 }
+.nlink{
+    height: 30px;
+}
+.nlink:hover{
+    cursor: grab;
+    color: grey;
+}

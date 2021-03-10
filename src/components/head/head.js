@@ -6,27 +6,25 @@ import { useEffect, useState } from 'react';
 
 export default function About(){
     const intro=[
-    "Undergraduate",
-    "IIIT Ranchi",
-    "Web Developer",
-    "Competitive Programmer",
-    "Python Enthusiast"];
+    "Undergraduate","",
+    "IIIT Ranchi","",
+    "Web Developer","",
+    "Competitive Programmer","",
+    "Python Enthusiast",""];
     const [idx, updateIdx] = useState(0);
     useEffect(() => {
         const timer = window.setInterval(() => {
           updateIdx((prevIdx) => (prevIdx +1) % intro.length);
-        }, 3000);
+        }, 1500);
         return () => {
           window.clearInterval(timer);
         }
       }, [intro.length])
 
-    return(<div className="head row" id="head">
-            <div className="col">
+    return(<div className="head" id="head">
             <img className = "dp" src = {DP} alt = 'Profile '/>
-            </div>
-            <div className="col  abt">
-            RISHAV MAZUMDAR<br/><br/>
+            <div className=" abt">
+            <span className="nme">RISHAV MAZUMDAR</span><br/><br/>
                <div className="intro">{intro[idx]}</div>
                <br/><br/>
                <a className="btn btnss1" href="rishavmz.github.io">View Resume</a>

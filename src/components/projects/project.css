@@ -15,6 +15,7 @@
 
 .imcont{
     height: 180px;
+    border-radius: 5px;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -68,6 +69,11 @@
         left: 30%;
     }
 }
+@media only screen and (max-device-width: 1200px) {
+    .card-deck{
+        margin-bottom: 50px;
+    }
+}
 .btnss{
     background-color: rgb(160, 240, 240);
     color: black;
@@ -77,6 +83,7 @@
     color: white;
     font-weight: bold;
     border: 1px solid white;
+    margin-top: 25px;
 }
 hr{
     background-color: azure;

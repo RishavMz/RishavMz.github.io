@@ -12,9 +12,9 @@ export default function Rpanel(){
     return(<div className="Rpanel">
         <Head/>
         <About/><br/><br/>
-        <WhatIDo/><br/><br/>
+        <WhatIDo/>
         <Projects/><br/><br/>
-        <Achievements/><br/><br/>
+        {/*<Achievements/><br/><br/>*/}
         <Skills/><br/><br/>
         <Footer/>
         

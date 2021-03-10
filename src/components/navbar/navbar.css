@@ -2,7 +2,7 @@
     position: absolute;
     top: 20%;
     margin: 25px 25px 25px 25px;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ul{
     list-style-type:none;
@@ -13,4 +13,5 @@ ul{
 .nlink:hover{
     cursor: grab;
     color: grey;
+    font-weight: 900;
 }

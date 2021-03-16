@@ -20,7 +20,30 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div style="color: #FFFFFF; width:100%; position: absolute; top: 57.7%; margin-top: 25px; text-align: center; ">Loading . . .</div>
+    <div style="overflow-x: hidden; overflow-y: hidden; background-color: #1b1b1b; height: 100vh; width: 100vw;">
+      <div id="space" style="width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <svg width="51px" height="50px" viewBox="0 0 51 50">
+
+          <rect y="0" width="13" height="50" fill="#1fa2ff">
+              <animate attributeName="height" values="50;10;50" begin="0s" dur="1s" repeatCount="indefinite" />
+              <animate attributeName="y" values="0;20;0" begin="0s" dur="1s" repeatCount="indefinite" />
+          </rect>
+
+          <rect x="19" y="0" width="13" height="50" fill="#12d8fa">
+              <animate attributeName="height" values="50;10;50" begin="0.2s" dur="1s" repeatCount="indefinite" />
+              <animate attributeName="y" values="0;20;0" begin="0.2s" dur="1s" repeatCount="indefinite" />
+          </rect>
+
+          <rect x="38" y="0" width="13" height="50" fill="#06ffcb">
+              <animate attributeName="height" values="50;10;50" begin="0.4s" dur="1s" repeatCount="indefinite" />
+              <animate attributeName="y" values="0;20;0" begin="0.4s" dur="1s" repeatCount="indefinite" />
+          </rect>
+          
+        </svg>
+      </div>
+    </div>
     <!--
       Hello.-->
       <!--This is a personal portfolio website developed by Rishav Mazumdar.-->

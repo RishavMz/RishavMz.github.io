@@ -8,6 +8,7 @@
     position: absolute;
     top:50px;
     right: 100px;
+    background-color: transparent;
 }
 .nme{
     font-size: 20pt;

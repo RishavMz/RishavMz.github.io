@@ -9,9 +9,9 @@ ul{
 }
 .nlink{
     height: 30px;
+    font-weight: bold;
 }
 .nlink:hover{
     cursor: grab;
     color: grey;
-    font-weight: 900;
 }

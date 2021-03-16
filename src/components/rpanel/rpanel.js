@@ -14,7 +14,7 @@ export default function Rpanel(){
         <About/><br/><br/>
         <WhatIDo/>
         <Projects/><br/><br/>
-        {/*<Achievements/><br/><br/>*/}
+        <Achievements/><br/><br/>
         <Skills/><br/><br/>
         <Footer/>
         

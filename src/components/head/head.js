@@ -26,8 +26,8 @@ export default function About(){
             <div className=" abt">
             <span className="nme">RISHAV MAZUMDAR</span><br/><br/>
                <div className="intro">{intro[idx]}</div>
-               <br/>
-               <a className="btn btnss1" href="rishavmz.github.io">View Resume</a>
+               <br/><br/>
+               <a className="btn btnss1" href="https://drive.google.com/file/d/1nlpHPXScRt0BXGaGKATiOvSDz7AfB1C7/view?usp=sharing">View Resume</a>
             </div>
         <br/><br/><br/>
     </div>);

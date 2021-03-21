@@ -10,14 +10,6 @@
         },
         {
             "ID"    :    2,
-            "Topic" :    "Discord Bot (CP assistant)",
-            "Image" :    "proj2.JPG",
-            "About" :    "Discord bot to notify about upcoming contests and display custom ranklist based on friends performance ",
-            "Link"  :    "https://github.com/RishavMz/Competitive_Programming_Bot",
-            "Btext" :    "Python automation"   
-        },
-        {
-            "ID"    :    3,
             "Topic" :    "IEEE SB website",
             "Image" :    "ieee.png",
             "About" :    "Worked in a team of 6 members to design website for IEEE Student Branch using MERN stack.",
@@ -27,7 +19,7 @@
     ],
     [
         {
-            "ID"    :    4,
+            "ID"    :    3,
             "Topic" :    "Hoodie Shopping Website",
             "Image" :    "proj6.JPG",
             "About" :    "Web based application which allows customers to select a product of their choice",
@@ -35,15 +27,7 @@
             "Btext" :    "Web App  |  PHP + MySQL"   
         },
         {
-            "ID"    :    6,
-            "Topic" :    "Portfolio Website",
-            "Image" :    "portfolio.png",
-            "About" :    "Designed a portfolio website using React framework ",
-            "Link"  :    "https://rishavmz.github.io/",
-            "Btext" :    "Web App  |  React"   
-        },
-        {
-            "ID"    :    5,
+            "ID"    :    4,
             "Topic" :    "Event Organising website",
             "Image" :    "eventorg.png",
             "About" :    "Worked in a team of 2 members to design an event organising/broadcasting website as an entry to an inter-IIIT Hackathon. ",

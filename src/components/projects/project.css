@@ -23,7 +23,7 @@
 }
 .projanimin{
     animation: projanimate1 0.5s ;
-    height: 220px;
+    height: 250px;
 }
 .projanimout{
     animation: projanimate2 0.5s ;
@@ -34,12 +34,12 @@
         height: 180px;
     }
     to{
-        height: 220px;
+        height: 250px;
     }
 }
 @keyframes projanimate2{
     from{
-        height: 220px;
+        height: 250px;
     }
     to{
         height: 180px;
@@ -63,10 +63,16 @@
         margin: 30px 30px 30px 30px;
         height: 400px;
     }
+    .card-deck{
+        width: 80%;
+        margin-left: 100px;
+    }
     .prjbtn{
         position: absolute;
         bottom: 10px;    
-        left: 30%;
+    }
+    .card-body{
+        padding-bottom: 60px;
     }
 }
 @media only screen and (max-device-width: 1200px) {

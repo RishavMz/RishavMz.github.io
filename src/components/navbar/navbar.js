@@ -8,7 +8,7 @@ export default function Navbar(){
             <br/><div className="nlink" onClick={()=>{
                 var about = document.getElementById("head");
                 about.scrollIntoView({ block: 'end',  behavior: 'smooth' });
-            }}>About Me</div>
+            }}>Rishav</div>
             <br/><div className="nlink" onClick={()=>{
                var topskill = document.getElementById("topskill");
                topskill.scrollIntoView({ block: 'end',  behavior: 'smooth' });
@@ -17,10 +17,10 @@ export default function Navbar(){
                 var project = document.getElementById("project");
                 project.scrollIntoView({ block: 'end',  behavior: 'smooth' });
             }}>Projects</div>
-            <br/><div className="nlink" onClick={()=>{
+            {/*<br/><div className="nlink" onClick={()=>{
                 var achievements = document.getElementById("achievements");
                 achievements.scrollIntoView({ block: 'end',  behavior: 'smooth' });
-            }}>Achievements</div>
+            }}>Achievements</div>*/}
             <br/><div className="nlink" onClick={()=>{
                 var techstack = document.getElementById("techstack");
                 techstack.scrollIntoView({ block: 'end',  behavior: 'smooth' });

@@ -2,29 +2,13 @@
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 650px;
+    height: 350px;
     background-color: #121212;
     position: relative;
     bottom: 0px;
     text-align: center;
     color: white;
     box-shadow: 0px 0px 20px black;
-
-}
-.message{
-    margin: 15px 15px 15px 15px;
-    width: 28%;
-    border-radius: 5px;
-    outline: none;
-    padding: 15px 15px 15px 15px;
-
-}
-.messagebox{
-    margin: 15px 15px 15px 15px;
-    resize:none;
-    width: 60%;
-    border-radius: 5px;
-    padding: 15px 15px 15px 15px;
 
 }
 
@@ -47,12 +31,5 @@ textarea:focus, input:focus{
 
 @media only screen and (max-device-width: 480px) 
 {
-    .messagebox{
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius:50px;
-    }
-    .message{
-        border-top-left-radius: 50px;
-        border-top-right-radius:50px;
-    }
+    
 }

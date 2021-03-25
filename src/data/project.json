@@ -3,18 +3,18 @@
         {
             "ID"    :    1,
             "Topic" :    "Image To PDF Converter",
-            "About" :    "GUI based desktop application to select few images and add them to a single PDF file ",
+            "About" :    "GUI based desktop application to select required images and add them to a single PDF file ",
             "Image" :    "proj1.JPG",
             "Link"  :    "https://github.com/RishavMz/Image-To-PDF-using-Python",
-            "Btext" :    "Python automation"   
+            "Btext" :    "Python  ||  Desktop Application"   
         },
         {
             "ID"    :    2,
             "Topic" :    "IEEE SB website",
             "Image" :    "ieee.png",
-            "About" :    "Worked in a team of 6 members to design website for IEEE Student Branch using MERN stack.",
+            "About" :    "A fully-dynamic IEEE Student Branch Website developed using MERN stack",
             "Link"  :    "https://github.com/EmperorYP7/IIITR-IEEE-Website",
-            "Btext" :    "Team of 6  |  MERN stack" 
+            "Btext" :    " MERN (MongoDB Express React NodeJS)  ||  Web Application" 
         }
     ],
     [
@@ -24,15 +24,15 @@
             "Image" :    "proj6.JPG",
             "About" :    "Web based application which allows customers to select a product of their choice",
             "Link"  :    "https://github.com/RishavMz/Winter_hoodie_shopping_portal",
-            "Btext" :    "Web App  |  PHP + MySQL"   
+            "Btext" :    " PHP + MySQL  ||  Web Application"   
         },
         {
             "ID"    :    4,
             "Topic" :    "Event Organising website",
             "Image" :    "eventorg.png",
-            "About" :    "Worked in a team of 2 members to design an event organising/broadcasting website as an entry to an inter-IIIT Hackathon. ",
+            "About" :    "A platform where institutes can organise and broadcast events online and connect with the registered students",
             "Link"  :    "https://github.com/RishavMz/Event_organising_platform",
-            "Btext" :    "Team of 2  |  Web App  |  PHP + MySQL"   
+            "Btext" :    " PHP + MySQL  ||  Web Application"   
         }
     ]
 ]

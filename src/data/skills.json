@@ -50,12 +50,17 @@
     ],
     "backend":[
         {
-        "id":0,
-        "name":"Express Js",
-        "image":"express.png"
+            "id":0,
+            "name":"Express Js",
+            "image":"express.png"
         },
         {
             "id":1,
+            "name":"Node Js",
+            "image":"nodejs.png"
+        },
+        {
+            "id":2,
             "name":"PHP",
             "image":"php.png"
         }
@@ -90,8 +95,14 @@
         },
         {
             "id":2,
+            "name":"docker",
+            "image":"docker.png"
+        },
+        {
+            "id":3,
             "name":"VS Code",
             "image":"vscode.png"
         }
+        
     ]    
 }

@@ -10,57 +10,7 @@
         overflow-y: scroll;
         overflow-x: hidden;
     }
-    .scrolltotop{
-        height: 80px;
-        width: 80px;
-        position: fixed;
-        bottom:20px;
-        right: 20px;
-        border-radius: 80px;
-        background-color: rgb(91, 91, 255);
-    }
-    .balloon {
-        display:inline-block;
-         width:35px;
-        height:40px;
-        background:white;
-        border-radius:80%;
-        position:relative;
-        box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
-        margin:20px 30px;
-        transition:transform 0.5s ease;
-        z-index:10;
-        animation:balloons 4s ease-in-out infinite;
-        transform-origin:bottom center;
-      }
-      
-      @keyframes balloons {
-        0%,100%{ transform:translateY(0) rotate(-4deg); }
-        50%{ transform:translateY(-25px) rotate(4deg); }
-      }
-      
-      
-      .balloon:before {
-        content:"▲";
-        font-size:20px;
-        color:white;
-        display:block;
-        text-align:center;
-        width:100%;
-        position:absolute;
-        bottom:-12px;
-        z-index:-100;
-      }
-      
-      .balloon:after {
-       display:inline-block; top:153px;
-        position:absolute;
-        height:250px;
-        width:1px;
-        margin:0 auto;
-        content:"";
-        background:rgba(0,0,0,0.2); 
-      }
+    
       
       
       
@@ -79,4 +29,55 @@
             overflow-x: hidden;
             
         }
+}
+.scrolltotop{
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  bottom:20px;
+  right: 20px;
+  border-radius: 80px;
+  background-color: rgb(11, 11, 43);
+}
+.balloon {
+  display:inline-block;
+   width:35px;
+  height:40px;
+  background:white;
+  border-radius:80%;
+  position:relative;
+  box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
+  margin:20px 30px;
+  transition:transform 0.5s ease;
+  z-index:10;
+  animation:balloons 4s ease-in-out infinite;
+  transform-origin:bottom center;
+}
+
+@keyframes balloons {
+  0%,100%{ transform:translateY(0) rotate(-4deg); }
+  50%{ transform:translateY(-25px) rotate(4deg); }
+}
+
+
+.balloon:before {
+  content:"▲";
+  font-size:20px;
+  color:white;
+  display:block;
+  text-align:center;
+  width:100%;
+  position:absolute;
+  bottom:-12px;
+  z-index:-100;
+}
+
+.balloon:after {
+ display:inline-block; top:153px;
+  position:absolute;
+  height:250px;
+  width:1px;
+  margin:0 auto;
+  content:"";
+  background:rgba(0,0,0,0.2); 
 }

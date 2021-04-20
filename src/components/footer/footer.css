@@ -2,7 +2,7 @@
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 350px;
+    height: 300px;
     background-color: #121212;
     position: relative;
     bottom: 0px;
@@ -19,6 +19,8 @@ textarea:focus, input:focus{
 .icon{
     font-size: 25pt;
     color: white;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #contact{
@@ -27,9 +29,13 @@ textarea:focus, input:focus{
 }
 .sr{
     visibility: hidden;
+    display: none;
 }
 
 @media only screen and (max-device-width: 480px) 
 {
+    .footer{
+        height: 400px;
+    }
     
 }

@@ -15,3 +15,24 @@ ul{
     cursor: grab;
     color: grey;
 }
+.work{
+    background-color: rgb(116, 235, 116);
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    margin-left: -20px;
+    animation: blinker 3s infinite;
+}
+@keyframes blinker {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+
+}

@@ -1,0 +1,11 @@
+.matrix{
+    height: 100vh;
+    width: auto;
+    background-color: #121212;
+    color: lightgreen;
+    overflow: hidden;
+}
+
+.hideit{
+    display: none;
+}

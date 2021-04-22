@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 
-const opentowork = true;
+//const opentowork = true;
 
 export default function Navbar(){
     return(<div className="navbar">
@@ -22,7 +22,7 @@ export default function Navbar(){
             }}>Tech stack</div>
             <br/>
             <br/><br/><br/><br/>
-            {(opentowork)?<div className="work">OPEN TO WORK</div>:<div></div>}
+            {/*(opentowork)?<div className="work">OPEN TO WORK</div>:<div></div>*/}
             
         </ul>
 

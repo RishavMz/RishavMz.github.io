@@ -75,11 +75,6 @@
             "id":1,
             "name":"MongoDB",
             "image":"mongo.jpg"
-        },
-        {
-            "id":2,
-            "name":"sqlite3",
-            "image":"sqlite.png"
         }
     ],
     "tools":[
@@ -102,6 +97,11 @@
             "id":3,
             "name":"VS Code",
             "image":"vscode.png"
+        },
+        {
+            "id":4,
+            "name":"linux",
+            "image":"linux.png"
         }
         
     ]    

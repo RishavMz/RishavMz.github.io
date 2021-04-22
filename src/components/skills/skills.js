@@ -19,7 +19,7 @@ export default function Skills(){
         </div>))}
         </div></center></div><br/>
         <div className="mesh">
-        <center className="topicheadsmall">Frontend<br/><div className="nd">
+        <center className="topicheadsmall">Frontend tools <br/><div className="nd">
         {skills.frontend.map((frame)=>(<div className="nodesk" key={frame.id}>
         <div className="flip-box">
             <div className="flip-box-inner">
@@ -31,7 +31,7 @@ export default function Skills(){
             </div> 
         </div>))}        </div></center></div><br/>
         <div className="mesh">
-        <center className="topicheadsmall">Backend<br/><div className="nd">
+        <center className="topicheadsmall">Backend tools <br/><div className="nd">
         {skills.backend.map((frame)=>(<div className="nodesk" key={frame.id}>
         <div className="flip-box">
             <div className="flip-box-inner">
@@ -55,7 +55,7 @@ export default function Skills(){
             </div> 
         </div>))}        </div></center></div><br/>
         <div className="mesh">
-        <center className="topicheadsmall">Tools<br/><div className="nd">
+        <center className="topicheadsmall">Dev Tools <br/><div className="nd">
         {skills.tools.map((frame)=>(<div className="nodesk" key={frame.id}>
         <div className="flip-box">
             <div className="flip-box-inner">

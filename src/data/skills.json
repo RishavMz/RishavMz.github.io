@@ -33,11 +33,6 @@
             "image":"jquery.jpg"
         },
         {
-            "id":2,
-            "name":"Bootstrap",
-            "image":"bootstrap.jpg"
-        },
-        {
             "id":4,
             "name":"HTML",
             "image":"html.png"
@@ -51,13 +46,13 @@
     "backend":[
         {
             "id":0,
-            "name":"Express Js",
-            "image":"express.png"
+            "name":"Node Js",
+            "image":"nodejs.png"
         },
         {
             "id":1,
-            "name":"Node Js",
-            "image":"nodejs.png"
+            "name":"Rest API",
+            "image":"rest.png"
         },
         {
             "id":2,
@@ -73,8 +68,13 @@
         },
         {
             "id":1,
-            "name":"MongoDB",
-            "image":"mongo.jpg"
+            "name":"PostgreSQL",
+            "image":"postgres.png"
+        },
+        {
+            "id":2,
+            "name":"Redis",
+            "image":"redis.png"
         }
     ],
     "tools":[
@@ -84,19 +84,14 @@
             "image":"git.png"
         },
         {
-            "id":1,
-            "name":"github",
-            "image":"github.png"
-        },
-        {
             "id":2,
             "name":"docker",
             "image":"docker.png"
         },
         {
             "id":3,
-            "name":"VS Code",
-            "image":"vscode.png"
+            "name":"NginX",
+            "image":"nginx.png"
         },
         {
             "id":4,

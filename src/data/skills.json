@@ -7,8 +7,8 @@
         },
         {
             "id":1,
-            "name":"C++",
-            "image":"cpp.png"
+            "name":"Java",
+            "image":"java.png"
         },
         {
             "id":2,
@@ -17,8 +17,8 @@
         },
         {
             "id":3,
-            "name":"C",
-            "image":"c.png"
+            "name":"C++",
+            "image":"cpp.png"
         }
     ],
     "frontend":[
@@ -90,11 +90,6 @@
         },
         {
             "id":3,
-            "name":"NginX",
-            "image":"nginx.png"
-        },
-        {
-            "id":4,
             "name":"linux",
             "image":"linux.png"
         }

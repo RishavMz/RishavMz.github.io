@@ -4,7 +4,7 @@ import skills from "../../data/skills.json";
 
 export default function Skills(){
     return(<div className="Skils" id="techstack"><hr/><br/>
-        <center className="topichead">Technology I have worked with</center><br/><br/>
+        <center className="topichead">My tech toolbox</center><br/><br/>
         <div className="mesh">
         <center className="topicheadsmall">Programming languages<br/><div className="nd">
         {skills.languages.map((frame)=>(<div className="nodesk" key={frame.id}>

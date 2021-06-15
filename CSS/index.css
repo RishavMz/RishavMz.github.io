@@ -1,0 +1,94 @@
+
+.about{
+    font-size: 13pt;
+    padding-bottom: 25px;
+}
+.head{
+    padding-top: 100px;
+    background-color: #212121;
+    color: white;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.dp{
+    height: 300px;
+    width: auto;
+    border-radius: 25px;
+}
+.projects{
+
+    background-color: white;
+    color: black;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.project{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: black;
+}
+.project:hover{
+    animation-name: projhover;
+    animation-duration: 1s;
+}
+@keyframes projhover {
+    0%   { transform: rotateY(0deg); }
+    50%  { transform: rotateY(20deg); }
+    100% { transform: rotateY(0deg); }
+}
+a:hover{
+    text-decoration: none;
+}
+
+.projimg{
+    height: 250px;
+    width: auto;
+}
+.desc{
+    font-size: 14pt;
+}
+.projtool{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 10px;
+}
+.skillcloud{
+    display: inline-block;
+}
+.contact{
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #212121;
+    color: white;
+}
+.icon{
+    font-size: 25pt;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#contact{
+    font-size: 20pt;
+    margin-top : 10px;
+}
+.sr{
+    visibility: hidden;
+    display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .projimg{
+        width: 280px;
+        height: auto;
+    }
+
+}
